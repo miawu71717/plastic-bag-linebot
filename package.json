@@ -5,9 +5,7 @@
   "main": "app-simple.js",
   "scripts": {
     "start": "node app-simple.js",
-    "dev": "nodemon app-simple.js",
-    "start-full": "node app.js",
-    "dev-full": "nodemon app.js"
+    "dev": "nodemon app-simple.js"
   },
   "dependencies": {
     "@line/bot-sdk": "^7.5.2",
@@ -18,5 +16,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
